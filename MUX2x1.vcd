@@ -1,0 +1,71 @@
+$date
+	Mon Sep 18 11:38:16 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module MUX2x1_tb $end
+$var wire 1 ! y $end
+$var reg 2 " data [1:0] $end
+$var reg 1 # selo $end
+$scope module uut $end
+$var wire 1 $ a $end
+$var wire 1 % b $end
+$var wire 1 # selo $end
+$var wire 1 ! y $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+x%
+x$
+x#
+bx "
+x!
+$end
+#2
+0!
+0$
+0%
+b0 "
+#4
+0#
+#6
+1#
+#8
+0#
+#10
+1!
+1%
+b1 "
+#14
+0!
+1#
+#16
+1!
+0#
+#18
+0!
+1$
+0%
+b10 "
+#22
+1!
+1#
+#24
+0!
+0#
+#26
+1!
+1%
+b11 "
+#30
+1#
+#40

@@ -1,0 +1,269 @@
+$date
+	Tue Sep 19 18:01:20 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module BCDAddSub_tb $end
+$var wire 1 ! cout $end
+$var wire 4 " bcdsum [3:0] $end
+$var reg 4 # bcd1 [3:0] $end
+$var reg 4 $ bcd2 [3:0] $end
+$var reg 1 % cin $end
+$scope module uut $end
+$var wire 4 & bcd1 [3:0] $end
+$var wire 4 ' bcd2 [3:0] $end
+$var wire 1 % cin $end
+$var wire 1 ! cout $end
+$var wire 4 ( comporbcd [3:0] $end
+$var wire 4 ) bcdsum [3:0] $end
+$scope module A1 $end
+$var wire 4 * bcd1 [3:0] $end
+$var wire 1 % cin $end
+$var wire 1 ! cout $end
+$var wire 1 + flg $end
+$var wire 1 , sc3 $end
+$var wire 1 - sc2 $end
+$var wire 1 . sc1 $end
+$var wire 1 / s3 $end
+$var wire 1 0 s2 $end
+$var wire 1 1 s1 $end
+$var wire 1 2 s0 $end
+$var wire 1 3 c3 $end
+$var wire 1 4 c2 $end
+$var wire 1 5 c1 $end
+$var wire 1 6 c0 $end
+$var wire 4 7 bcdsum [3:0] $end
+$var wire 4 8 bcd2 [3:0] $end
+$scope module A0 $end
+$var wire 1 9 a $end
+$var wire 1 : b $end
+$var wire 1 % cin $end
+$var wire 1 6 cout $end
+$var wire 1 2 s $end
+$upscope $end
+$scope module A1 $end
+$var wire 1 ; a $end
+$var wire 1 < b $end
+$var wire 1 6 cin $end
+$var wire 1 5 cout $end
+$var wire 1 1 s $end
+$upscope $end
+$scope module A2 $end
+$var wire 1 = a $end
+$var wire 1 > b $end
+$var wire 1 5 cin $end
+$var wire 1 4 cout $end
+$var wire 1 0 s $end
+$upscope $end
+$scope module A3 $end
+$var wire 1 ? a $end
+$var wire 1 @ b $end
+$var wire 1 4 cin $end
+$var wire 1 3 cout $end
+$var wire 1 / s $end
+$upscope $end
+$scope module B1 $end
+$var wire 1 1 a $end
+$var wire 1 + b $end
+$var wire 1 . cout $end
+$var wire 1 A s $end
+$upscope $end
+$scope module B2 $end
+$var wire 1 0 a $end
+$var wire 1 + b $end
+$var wire 1 . cin $end
+$var wire 1 - cout $end
+$var wire 1 B s $end
+$upscope $end
+$scope module B3 $end
+$var wire 1 / a $end
+$var wire 1 - b $end
+$var wire 1 , cout $end
+$var wire 1 C s $end
+$upscope $end
+$upscope $end
+$scope module C1 $end
+$var wire 4 D bcd [3:0] $end
+$var wire 1 % cs $end
+$var reg 4 E bcdcomp [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx E
+bx D
+xC
+xB
+xA
+x@
+x?
+x>
+x=
+x<
+x;
+x:
+x9
+bx 8
+bx 7
+x6
+x5
+x4
+x3
+x2
+x1
+x0
+x/
+x.
+x-
+x,
+x+
+bx *
+bx )
+bx (
+bx '
+bx &
+x%
+bx $
+bx #
+bx "
+x!
+$end
+#2
+09
+0;
+0=
+1?
+b101 $
+b101 '
+b101 D
+b1000 #
+b1000 &
+b1000 *
+#4
+0C
+1,
+1-
+0B
+1A
+1!
+1+
+03
+1/
+04
+10
+0.
+05
+01
+b11 "
+b11 )
+b11 7
+12
+06
+0@
+1>
+0<
+1:
+b101 (
+b101 8
+b101 E
+0%
+#6
+0B
+1A
+0.
+01
+06
+0:
+b11 "
+b11 )
+b11 7
+12
+b100 (
+b100 8
+b100 E
+1%
+#8
+0C
+1,
+1A
+1-
+1!
+1+
+0B
+15
+10
+b11 "
+b11 )
+b11 7
+12
+16
+1:
+1<
+0>
+b11 (
+b11 8
+b11 E
+19
+b110 $
+b110 '
+b110 D
+b1001 #
+b1001 &
+b1001 *
+#10
+05
+1-
+0C
+1,
+03
+0A
+1.
+1B
+1/
+11
+04
+06
+10
+1>
+0:
+b101 "
+b101 )
+b101 7
+12
+b110 (
+b110 8
+b110 E
+0%
+#12
+0B
+0C
+1,
+1-
+1!
+1+
+15
+1A
+0.
+10
+01
+16
+1:
+0>
+b11 "
+b11 )
+b11 7
+12
+b11 (
+b11 8
+b11 E
+1%
+#20

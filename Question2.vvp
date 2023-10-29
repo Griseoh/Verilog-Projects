@@ -1,0 +1,101 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1539-g2693dd32b)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision - 9;
+:vpi_module "C:\iverilog\lib\ivl\system.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\va_math.vpi";
+S_000001082ddfbae0 .scope module, "LogicDesign_tb" "LogicDesign_tb" 2 4;
+ .timescale -9 -9;
+v000001082dcd2550_0 .var "a", 0 0;
+v000001082dcd25f0_0 .var "b", 0 0;
+v000001082dcd2690_0 .var "c", 0 0;
+v000001082dcd2730_0 .var "d", 0 0;
+v000001082dcd27d0_0 .net "y", 0 0, L_000001082dcd3010;  1 drivers
+S_000001082dd05d00 .scope module, "uut" "LogicDesign" 2 8, 3 2 0, S_000001082ddfbae0;
+ .timescale -9 -9;
+    .port_info 0 /OUTPUT 1 "y";
+    .port_info 1 /INPUT 1 "a";
+    .port_info 2 /INPUT 1 "b";
+    .port_info 3 /INPUT 1 "c";
+    .port_info 4 /INPUT 1 "d";
+L_000001082dd06110/d .functor XOR 1, v000001082dcd2550_0, v000001082dcd2690_0, C4<0>, C4<0>;
+L_000001082dd06110 .delay 1 (1,1,1) L_000001082dd06110/d;
+L_000001082dcd2eb0/d .functor OR 1, v000001082dcd2730_0, L_000001082dd06110, C4<0>, C4<0>;
+L_000001082dcd2eb0 .delay 1 (1,1,1) L_000001082dcd2eb0/d;
+L_000001082dcd3010/d .functor AND 1, v000001082dcd25f0_0, L_000001082dcd2eb0, C4<1>, C4<1>;
+L_000001082dcd3010 .delay 1 (1,1,1) L_000001082dcd3010/d;
+v000001082ddf9070_0 .net "a", 0 0, v000001082dcd2550_0;  1 drivers
+v000001082ddfbc70_0 .net "b", 0 0, v000001082dcd25f0_0;  1 drivers
+v000001082ddfbd10_0 .net "c", 0 0, v000001082dcd2690_0;  1 drivers
+v000001082dd05e90_0 .net "d", 0 0, v000001082dcd2730_0;  1 drivers
+v000001082dd05f30_0 .net "w1", 0 0, L_000001082dd06110;  1 drivers
+v000001082dd05fd0_0 .net "w2", 0 0, L_000001082dcd2eb0;  1 drivers
+v000001082dd06070_0 .net "y", 0 0, L_000001082dcd3010;  alias, 1 drivers
+    .scope S_000001082ddfbae0;
+T_0 ;
+    %vpi_call 2 11 "$dumpfile", "Question2.vcd" {0 0 0};
+    %vpi_call 2 12 "$dumpvars", 32'sb00000000000000000000000000000000, S_000001082ddfbae0 {0 0 0};
+    %delay 8, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v000001082dcd2550_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v000001082dcd25f0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v000001082dcd2690_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v000001082dcd2730_0, 0, 1;
+    %delay 8, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v000001082dcd2550_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v000001082dcd25f0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v000001082dcd2690_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v000001082dcd2730_0, 0, 1;
+    %delay 8, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v000001082dcd2550_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v000001082dcd25f0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v000001082dcd2690_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v000001082dcd2730_0, 0, 1;
+    %delay 8, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v000001082dcd2550_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v000001082dcd25f0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v000001082dcd2690_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v000001082dcd2730_0, 0, 1;
+    %delay 8, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v000001082dcd2550_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v000001082dcd25f0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v000001082dcd2690_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v000001082dcd2730_0, 0, 1;
+    %end;
+    .thread T_0;
+    .scope S_000001082ddfbae0;
+T_1 ;
+    %vpi_call 2 45 "$monitor", "t=%2d, a=%b, , b=%b c=%b, d=%b, y=%b", $time, v000001082dcd2550_0, v000001082dcd25f0_0, v000001082dcd2690_0, v000001082dcd2730_0, v000001082dcd27d0_0 {0 0 0};
+    %delay 100, 0;
+    %vpi_call 2 47 "$display", "Testing Finish" {0 0 0};
+    %vpi_call 2 48 "$finish" {0 0 0};
+    %end;
+    .thread T_1;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "Question2_tb.v";
+    "./Question2.v";

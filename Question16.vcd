@@ -1,0 +1,54 @@
+$date
+	Sun Sep 24 05:35:01 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module BitAnd_tb $end
+$var wire 1 ! Y $end
+$var reg 3 " A [2:0] $end
+$scope module uut $end
+$var wire 3 # A [2:0] $end
+$var wire 1 ! Y $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx #
+bx "
+x!
+$end
+#2
+0!
+b0 "
+b0 #
+#4
+b1 "
+b1 #
+#6
+b10 "
+b10 #
+#8
+b11 "
+b11 #
+#10
+b100 "
+b100 #
+#12
+b101 "
+b101 #
+#14
+b110 "
+b110 #
+#16
+1!
+b111 "
+b111 #
+#20

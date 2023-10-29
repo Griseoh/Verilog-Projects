@@ -1,0 +1,160 @@
+$date
+	Tue Sep 19 17:56:21 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module BCDComplementer_tb $end
+$var wire 4 ! bcdcomp [3:0] $end
+$var reg 4 " bcd [3:0] $end
+$var reg 1 # cs $end
+$scope module uut $end
+$var wire 4 $ bcd [3:0] $end
+$var wire 1 # cs $end
+$var reg 4 % bcdcomp [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx %
+bx $
+x#
+bx "
+bx !
+$end
+#2
+b0 "
+b0 $
+#3
+b0 !
+b0 %
+0#
+#4
+b1001 !
+b1001 %
+1#
+#6
+b1000 !
+b1000 %
+b1 "
+b1 $
+#7
+b1 !
+b1 %
+0#
+#8
+b1000 !
+b1000 %
+1#
+#10
+b111 !
+b111 %
+b10 "
+b10 $
+#11
+b10 !
+b10 %
+0#
+#12
+b111 !
+b111 %
+1#
+#14
+b110 !
+b110 %
+b11 "
+b11 $
+#15
+b11 !
+b11 %
+0#
+#16
+b110 !
+b110 %
+1#
+#18
+b101 !
+b101 %
+b100 "
+b100 $
+#19
+b100 !
+b100 %
+0#
+#20
+b101 !
+b101 %
+1#
+#22
+b100 !
+b100 %
+b101 "
+b101 $
+#23
+b101 !
+b101 %
+0#
+#24
+b100 !
+b100 %
+1#
+#26
+b11 !
+b11 %
+b110 "
+b110 $
+#27
+b110 !
+b110 %
+0#
+#28
+b11 !
+b11 %
+1#
+#30
+b10 !
+b10 %
+b111 "
+b111 $
+#31
+b111 !
+b111 %
+0#
+#32
+b10 !
+b10 %
+1#
+#34
+b1 !
+b1 %
+b1000 "
+b1000 $
+#35
+b1000 !
+b1000 %
+0#
+#36
+b1 !
+b1 %
+1#
+#38
+b0 !
+b0 %
+b1001 "
+b1001 $
+#39
+b1001 !
+b1001 %
+0#
+#40
+b0 !
+b0 %
+1#
+#45

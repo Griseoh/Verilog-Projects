@@ -1,0 +1,157 @@
+$date
+	Mon Sep 25 23:59:56 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module OctaltoBin_tb $end
+$var wire 1 ! Valid $end
+$var wire 3 " Bin [2:0] $end
+$var reg 8 # Oct [7:0] $end
+$scope module uut $end
+$var wire 8 $ Oct [7:0] $end
+$var wire 1 ! Valid $end
+$var reg 3 % Bin [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx %
+bx $
+bx #
+bx "
+x!
+$end
+#2
+0!
+b0 #
+b0 $
+#4
+b0 "
+b0 %
+1!
+b1 #
+b1 $
+#6
+b1 "
+b1 %
+b10 #
+b10 $
+#8
+b11 #
+b11 $
+#10
+b10 "
+b10 %
+b100 #
+b100 $
+#12
+b101 #
+b101 $
+#14
+b110 #
+b110 $
+#16
+b111 #
+b111 $
+#18
+b11 "
+b11 %
+b1000 #
+b1000 $
+#20
+b1001 #
+b1001 $
+#22
+b1010 #
+b1010 $
+#24
+b1011 #
+b1011 $
+#26
+b1100 #
+b1100 $
+#28
+b1101 #
+b1101 $
+#30
+b1110 #
+b1110 $
+#32
+b1111 #
+b1111 $
+#34
+b100 "
+b100 %
+b10000 #
+b10000 $
+#36
+b10001 #
+b10001 $
+#38
+b10010 #
+b10010 $
+#40
+b10011 #
+b10011 $
+#42
+b10100 #
+b10100 $
+#44
+b10101 #
+b10101 $
+#46
+b10110 #
+b10110 $
+#48
+b10111 #
+b10111 $
+#50
+b11000 #
+b11000 $
+#52
+b11001 #
+b11001 $
+#54
+b11010 #
+b11010 $
+#56
+b11011 #
+b11011 $
+#58
+b11100 #
+b11100 $
+#60
+b11101 #
+b11101 $
+#62
+b11110 #
+b11110 $
+#64
+b11111 #
+b11111 $
+#66
+b101 "
+b101 %
+b100000 #
+b100000 $
+#68
+b100001 #
+b100001 $
+#70
+b100010 #
+b100010 $
+#72
+b100011 #
+b100011 $
+#74
+b100100 #
+b100100 $
+#100

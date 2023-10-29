@@ -1,0 +1,3 @@
+iverilog -o filename.vvp filename_tb.v
+vvp filename.vvp
+gtkwave filename.vcd

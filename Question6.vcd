@@ -1,0 +1,76 @@
+$date
+	Mon Sep 11 16:44:25 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module Bin2Gray_tb $end
+$var wire 4 ! gry [3:0] $end
+$var reg 1 " a $end
+$var reg 1 # b $end
+$var reg 1 $ c $end
+$var reg 1 % d $end
+$scope module uut $end
+$var wire 1 " a $end
+$var wire 1 # b $end
+$var wire 1 $ c $end
+$var wire 1 % d $end
+$var reg 4 & gry [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx &
+x%
+x$
+x#
+x"
+bx !
+$end
+#5
+b0 !
+b0 &
+0"
+0#
+0$
+0%
+#10
+b1 !
+b1 &
+1%
+#15
+b1010 !
+b1010 &
+1"
+1#
+0%
+#20
+b111 !
+b111 &
+0"
+1%
+#25
+b1111 !
+b1111 &
+1"
+0#
+1$
+0%
+#30
+b10 !
+b10 &
+0"
+1%
+#35
+b1000 !
+b1000 &
+1"
+1#
+#50

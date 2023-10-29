@@ -1,0 +1,53 @@
+$date
+	Sat Sep 09 14:44:28 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module specific_exor_tb $end
+$var wire 1 ! k $end
+$var reg 1 " i $end
+$var reg 1 # j $end
+$scope module uut $end
+$var wire 1 $ a $end
+$var wire 1 % b $end
+$var wire 1 & c $end
+$var wire 1 ' d $end
+$var wire 1 ! f $end
+$var wire 1 " s $end
+$var wire 1 # t $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+x'
+x&
+x%
+x$
+0#
+0"
+x!
+$end
+#4000
+1%
+1$
+#8000
+0&
+0'
+#10000
+1#
+#14000
+0%
+#18000
+1'
+0!
+#28000
+1!
+#50000
